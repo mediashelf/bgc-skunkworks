@@ -2,5 +2,5 @@
 	path = jetty
 	url = git://github.com/projectblacklight/blacklight-jetty.git
 [submodule "data"]
-	path = data
+	path = vendor/plugins/blacklight/data
 	url = git://github.com/projectblacklight/blacklight-data.git
