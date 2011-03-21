@@ -41,6 +41,7 @@ pkg
 db/*.sqlite3
 log/*.log
 tmp/
+config/getty_webservices.yml
 
 *.sqlite3
 *.log

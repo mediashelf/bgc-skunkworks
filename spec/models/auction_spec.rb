@@ -2,10 +2,10 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe Auction do
   describe "#load_instance" do
-    it "should assemble an Auction object"
-      SolrService.expects(:solr_response_for_doc_id).with("10000002").returns(["solr response","solr document"])
-      AATVocabularyService.instance.expects(:retrieve).with(:bgc_id=>"10000002").returns("AAT response")
-      BGCIdentityResolver.expects(:resolve).with("10000002", :christies).returns("christies internal id")
+    it "should assemble an Auction object" do
+      SolrService.should_receive(:solr_response_for_doc_id).with("10000002").and_return(["solr response","solr document"])
+      AATVocabularyService.should_receive.expects(:retrieve).with(:bgc_id=>"10000002").and_return("AAT response")
+      BGCIdentityResolver.should_receive(:resolve).with("10000002", :christies).and_return("christies internal id")
       auction = Auction.load_instance("10000002")
       auction.aat.should == "AAT response"
       auction.solr_doc.should == "solr document"

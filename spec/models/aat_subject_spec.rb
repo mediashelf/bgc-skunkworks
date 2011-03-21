@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe AATEntry do
+describe AATSubject do
   # before(:each) do
   #   @entry = AATVocabularyService.instance.retrieve("300140808")
   # end

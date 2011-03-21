@@ -5,7 +5,7 @@ class AATSubject
   set_terminology do |t|
     t.root(:path=>"Vocabulary", :xmlns=>"http://www.loc.gov/mods/v3", :schema=>"http://www.loc.gov/standards/mods/v3/mods-3-2.xsd")
 
-    t.subject(path=>"Subject") {
+    t.subject(:path=>"Subject") {
       t.id_(:path=>{:attribute=>"Subject_ID"})
       t.parent_relationships(:path=>"Parent_Relationships") {
         t.preferred_parent(:path=>"Preferred_Parent") {

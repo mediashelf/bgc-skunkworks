@@ -5,6 +5,7 @@ require File.dirname(__FILE__) + "/../config/environment" unless defined?(RAILS_
 require 'spec/autorun'
 require 'spec/rails'
 require "authlogic/test_case"
+require "equivalent-xml"
 include Authlogic::TestCase
 
 # Requires supporting files with custom matchers and macros, etc,
@@ -50,4 +51,9 @@ Spec::Runner.configure do |config|
   # == Notes
   #
   # For more information take a look at Spec::Runner::Configuration and Spec::Runner
+  
+  def fixture(file)
+    File.new(File.join(File.dirname(__FILE__), 'fixtures', file))
+  end
+  
 end
