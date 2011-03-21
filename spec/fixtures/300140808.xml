@@ -1,1 +1,367 @@
-"<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Vocabulary xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://vocabsservices.getty.edu/Schemas/AAT/AATGetSubject.xsd\">\r\n  <Subject Subject_ID=\"300140808\">\r\n    <Parent_Relationships>\r\n      <Preferred_Parent>\r\n        <Parent_Subject_ID>300140803</Parent_Subject_ID>\r\n        <Relationship_Type>Parent/Child</Relationship_Type>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Parent_String>earthenware [300140803], pottery (object genre) [300010666], ceramics (objects) [300151343], object genres by material [300190712], object genres (Guide Term) [300185712], Object Genres (Hierarchy Name) [300185711], Objects Facet [300264092], Top of the AAT hierarchies [300000000]</Parent_String>\r\n        <Hier_Rel_Type>Genus/Species-BTG</Hier_Rel_Type>\r\n      </Preferred_Parent>\r\n    </Parent_Relationships>\r\n    <Descriptive_Notes>\r\n      <Descriptive_Note>\r\n        <Note_Text>Refers to tin-glazed earthenware first made early in the 17th century in Delft, the Netherlands. This style of tin glazing was later brought by the Dutch to England. In modern usage, the term applies to all such wares manufactured in either The Netherlands or England, as distinguished from 'faience,' made in France, Germany, Spain, and Scandinavia, and 'maiolica,' made in Italy. Delftware developed after Chinese porcelain production was severely curtailed in the mid-17th century due to the war between the ruling Ming dynasty and the invading Manchus, when important Chinese kilns were destroyed. The previously large number of porcelain imports from China into the Netherlands ended; the Delft manufactories, Porceleynen Schotel, the Porceleynen Lampetkan, and others began making large volumes of faience decorated with Chinese-style painting. By 1665 there were around 20 faience factories in Delft. They primarily mass-produced imitation porcelain with decoration mimicking Chinese Transitional ware. Around 1680, delftware producers they also experimented with color to produce a greater variety of wares.</Note_Text>\r\n        <Note_Language>English</Note_Language>\r\n        <Note_Contributors>\r\n          <Note_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n          </Note_Contributor>\r\n        </Note_Contributors>\r\n        <Note_Sources>\r\n          <Note_Source>\r\n            <Source>\r\n              <Source_ID>2000047439/Encyclopedia Britannica Online (2002-)</Source_ID>\r\n            </Source>\r\n          </Note_Source>\r\n        </Note_Sources>\r\n      </Descriptive_Note>\r\n      <Descriptive_Note>\r\n        <Note_Text>Verwijst naar aardewerk met tinglazuur dat voor het eerst aan het begin van de 17de eeuw in Delft werd vervaardigd. Dit type tinglazuur werd later door de Hollanders in Engeland geïntroduceerd. In het moderne taalgebruik is de term van toepassing op al het aardewerk dat in Nederland of Engeland wordt geproduceerd, ter onderscheiding van de 'faience' uit Frankrijk, Duitsland, Spanje en Scandinavië, en het Italiaanse 'majolica'. Delfts aardewerk kwam tot ontwikkeling nadat de productie van Chinees porselein halverwege de 17de eeuw ernstig te lijden had gekregen van de oorlog tussen de heersende Ming-dynastie en de binnenvallende Qing, waarbij belangrijke Chinese industriële ovens verloren gingen. Zo kwam er een einde aan de voorheen omvangrijke invoer van Chinees porselein in de Nederlanden; de Delftse aardewerkfabrieken De Porceleynen Schotel, De Porceleynen Lampetkan en andere fabrieken begonnen nu met de grootschalige productie van faience gedecoreerd met schilderwerk in Chinese stijl. In 1665 telde Delft circa 20 faiencefabrieken. Ze hielden zich hoofdzakelijk bezig met de massaproductie van imitatieporselein dat als kopie van het Chinees Kraakporselein was bedoeld. Rond 1680 gingen de makers van het Delftse aardewerk met verschillende kleuren experimenteren om hun aanbod te verbreden.</Note_Text>\r\n        <Note_Language>Dutch</Note_Language>\r\n        <Note_Contributors>\r\n          <Note_Contributor>\r\n            <Contributor_id>10000205/Bureau AAT</Contributor_id>\r\n          </Note_Contributor>\r\n        </Note_Contributors>\r\n        <Note_Sources>\r\n          <Note_Source>\r\n            <Source>\r\n              <Source_ID>2000051213/AAT-Ned (1994-)</Source_ID>\r\n            </Source>\r\n          </Note_Source>\r\n        </Note_Sources>\r\n      </Descriptive_Note>\r\n    </Descriptive_Notes>\r\n    <Record_Type>Concept</Record_Type>\r\n    <Merged_Status>Merged</Merged_Status>\r\n    <Terms>\r\n      <Preferred_Term>\r\n        <Term_Text>delftware</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000140808</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>American English</Language>\r\n            <Preferred>Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Descriptor</Term_Type>\r\n            <Part_of_Speech>Plural Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Contributor>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000008451/Charleston, English Porcelain (1965)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000021251/Savage and Newman, Illustrated Dictionary of Ceramics (1974)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000043551/Worcester Art Museum Library, List of subject headings, unpub. (1976)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000047206/BHA Subject Headings (1985-)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>ware, Delft</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000286075</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>British English</Language>\r\n            <Preferred>Non Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Used For Term</Term_Type>\r\n            <Part_of_Speech>Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000046717/Getty Vocabulary Program rules</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>Delfts aardewerk</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000493270</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>Dutch</Language>\r\n            <Preferred>Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Descriptor</Term_Type>\r\n            <Part_of_Speech>Undetermined</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000205/Bureau AAT</Contributor_id>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000051213/AAT-Ned (1994-)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>porcelana de Delft</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000346792</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>Spanish</Language>\r\n            <Preferred>Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Descriptor</Term_Type>\r\n            <Part_of_Speech>Plural Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000049638/Miller, Como Reconocer las Antigüedades (1991)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>loza delft</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000346793</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>Spanish</Language>\r\n            <Preferred>Non Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Alternate Descriptor</Term_Type>\r\n            <Part_of_Speech>Singular Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000048873/Dewey, Sistema de Clasificación Decimal Dewey e Índice Relativo (2000)</Source_ID>\r\n            </Source>\r\n            <Page>439</Page>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Source>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>Delft ware</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000286074</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>British English</Language>\r\n            <Preferred>Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Descriptor</Term_Type>\r\n            <Part_of_Speech>Plural Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000031141/Oxford English Dictionary (1989)</Source_ID>\r\n            </Source>\r\n            <Page>\r\n            </Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n      <Non-Preferred_Term>\r\n        <Term_Text>Delftware</Term_Text>\r\n        <Display_Name>N/A</Display_Name>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n        <Vernacular>Undetermined</Vernacular>\r\n        <Term_ID>1000304255</Term_ID>\r\n        <Term_Languages>\r\n          <Term_Language>\r\n            <Language>English</Language>\r\n            <Preferred>Non Preferred</Preferred>\r\n            <Qualifier>\r\n            </Qualifier>\r\n            <Term_Type>Used For Term</Term_Type>\r\n            <Part_of_Speech>Noun</Part_of_Speech>\r\n            <Lang_Stat>Undetermined</Lang_Stat>\r\n          </Term_Language>\r\n        </Term_Languages>\r\n        <Term_Contributors>\r\n          <Term_Contributor>\r\n            <Contributor_id>10000000/VP</Contributor_id>\r\n            <Preferred>Non Preferred</Preferred>\r\n          </Term_Contributor>\r\n        </Term_Contributors>\r\n        <Term_Sources>\r\n          <Term_Source>\r\n            <Source>\r\n              <Source_ID>2000045262/Grove Dictionary of Art online (1999-2002)</Source_ID>\r\n            </Source>\r\n            <Page>\"Netherlands, the: Ceramics.\" Accessed 08/15/2002.</Page>\r\n            <Preferred>Preferred</Preferred>\r\n          </Term_Source>\r\n        </Term_Sources>\r\n      </Non-Preferred_Term>\r\n    </Terms>\r\n    <Associative_Relationships>\r\n      <Associative_Relationship>\r\n        <Relationship_Type>distinguished from</Relationship_Type>\r\n        <Related_Subject_ID>\r\n          <VP_Subject_ID>300010668</VP_Subject_ID>\r\n        </Related_Subject_ID>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n      </Associative_Relationship>\r\n      <Associative_Relationship>\r\n        <Relationship_Type>distinguished from</Relationship_Type>\r\n        <Related_Subject_ID>\r\n          <VP_Subject_ID>300021170</VP_Subject_ID>\r\n        </Related_Subject_ID>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n      </Associative_Relationship>\r\n      <Associative_Relationship>\r\n        <Relationship_Type>material used/producing is</Relationship_Type>\r\n        <Related_Subject_ID>\r\n          <VP_Subject_ID>300233436</VP_Subject_ID>\r\n        </Related_Subject_ID>\r\n        <Historic_Flag>Current</Historic_Flag>\r\n      </Associative_Relationship>\r\n    </Associative_Relationships>\r\n    <Subject_Contributors>\r\n      <Subject_Contributor>\r\n        <Contributor_id>10000000/VP</Contributor_id>\r\n      </Subject_Contributor>\r\n      <Subject_Contributor>\r\n        <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>\r\n      </Subject_Contributor>\r\n      <Subject_Contributor>\r\n        <Contributor_id>10000205/Bureau AAT</Contributor_id>\r\n      </Subject_Contributor>\r\n    </Subject_Contributors>\r\n    <Subject_Sources>\r\n      <Subject_Source>\r\n        <Source>\r\n          <Source_ID>2000052372/Bureau AAT, RKD</Source_ID>\r\n        </Source>\r\n      </Subject_Source>\r\n    </Subject_Sources>\r\n  </Subject>\r\n</Vocabulary>"
+<?xml version="1.0" encoding="utf-8"?>
+<Vocabulary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vocabsservices.getty.edu/Schemas/AAT/AATGetSubject.xsd">
+  <Subject Subject_ID="300140808">
+    <Parent_Relationships>
+      <Preferred_Parent>
+        <Parent_Subject_ID>300140803</Parent_Subject_ID>
+        <Relationship_Type>Parent/Child</Relationship_Type>
+        <Historic_Flag>Current</Historic_Flag>
+        <Parent_String>earthenware [300140803], pottery (object genre) [300010666], ceramics (objects) [300151343], object genres by material [300190712], object genres (Guide Term) [300185712], Object Genres (Hierarchy Name) [300185711], Objects Facet [300264092], Top of the AAT hierarchies [300000000]</Parent_String>
+        <Hier_Rel_Type>Genus/Species-BTG</Hier_Rel_Type>
+      </Preferred_Parent>
+    </Parent_Relationships>
+    <Descriptive_Notes>
+      <Descriptive_Note>
+        <Note_Text>Refers to tin-glazed earthenware first made early in the 17th century in Delft, the Netherlands. This style of tin glazing was later brought by the Dutch to England. In modern usage, the term applies to all such wares manufactured in either The Netherlands or England, as distinguished from 'faience,' made in France, Germany, Spain, and Scandinavia, and 'maiolica,' made in Italy. Delftware developed after Chinese porcelain production was severely curtailed in the mid-17th century due to the war between the ruling Ming dynasty and the invading Manchus, when important Chinese kilns were destroyed. The previously large number of porcelain imports from China into the Netherlands ended; the Delft manufactories, Porceleynen Schotel, the Porceleynen Lampetkan, and others began making large volumes of faience decorated with Chinese-style painting. By 1665 there were around 20 faience factories in Delft. They primarily mass-produced imitation porcelain with decoration mimicking Chinese Transitional ware. Around 1680, delftware producers they also experimented with color to produce a greater variety of wares.</Note_Text>
+        <Note_Language>English</Note_Language>
+        <Note_Contributors>
+          <Note_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+          </Note_Contributor>
+        </Note_Contributors>
+        <Note_Sources>
+          <Note_Source>
+            <Source>
+              <Source_ID>2000047439/Encyclopedia Britannica Online (2002-)</Source_ID>
+            </Source>
+          </Note_Source>
+        </Note_Sources>
+      </Descriptive_Note>
+      <Descriptive_Note>
+        <Note_Text>Verwijst naar aardewerk met tinglazuur dat voor het eerst aan het begin van de 17de eeuw in Delft werd vervaardigd. Dit type tinglazuur werd later door de Hollanders in Engeland geïntroduceerd. In het moderne taalgebruik is de term van toepassing op al het aardewerk dat in Nederland of Engeland wordt geproduceerd, ter onderscheiding van de 'faience' uit Frankrijk, Duitsland, Spanje en Scandinavië, en het Italiaanse 'majolica'. Delfts aardewerk kwam tot ontwikkeling nadat de productie van Chinees porselein halverwege de 17de eeuw ernstig te lijden had gekregen van de oorlog tussen de heersende Ming-dynastie en de binnenvallende Qing, waarbij belangrijke Chinese industriële ovens verloren gingen. Zo kwam er een einde aan de voorheen omvangrijke invoer van Chinees porselein in de Nederlanden; de Delftse aardewerkfabrieken De Porceleynen Schotel, De Porceleynen Lampetkan en andere fabrieken begonnen nu met de grootschalige productie van faience gedecoreerd met schilderwerk in Chinese stijl. In 1665 telde Delft circa 20 faiencefabrieken. Ze hielden zich hoofdzakelijk bezig met de massaproductie van imitatieporselein dat als kopie van het Chinees Kraakporselein was bedoeld. Rond 1680 gingen de makers van het Delftse aardewerk met verschillende kleuren experimenteren om hun aanbod te verbreden.</Note_Text>
+        <Note_Language>Dutch</Note_Language>
+        <Note_Contributors>
+          <Note_Contributor>
+            <Contributor_id>10000205/Bureau AAT</Contributor_id>
+          </Note_Contributor>
+        </Note_Contributors>
+        <Note_Sources>
+          <Note_Source>
+            <Source>
+              <Source_ID>2000051213/AAT-Ned (1994-)</Source_ID>
+            </Source>
+          </Note_Source>
+        </Note_Sources>
+      </Descriptive_Note>
+    </Descriptive_Notes>
+    <Record_Type>Concept</Record_Type>
+    <Merged_Status>Merged</Merged_Status>
+    <Terms>
+      <Preferred_Term>
+        <Term_Text>delftware</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000140808</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>American English</Language>
+            <Preferred>Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Descriptor</Term_Type>
+            <Part_of_Speech>Plural Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+            <Preferred>Preferred</Preferred>
+          </Term_Contributor>
+          <Term_Contributor>
+            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000008451/Charleston, English Porcelain (1965)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000021251/Savage and Newman, Illustrated Dictionary of Ceramics (1974)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000043551/Worcester Art Museum Library, List of subject headings, unpub. (1976)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000047206/BHA Subject Headings (1985-)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>ware, Delft</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000286075</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>British English</Language>
+            <Preferred>Non Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Used For Term</Term_Type>
+            <Part_of_Speech>Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000046717/Getty Vocabulary Program rules</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>Delfts aardewerk</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000493270</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>Dutch</Language>
+            <Preferred>Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Descriptor</Term_Type>
+            <Part_of_Speech>Undetermined</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000205/Bureau AAT</Contributor_id>
+            <Preferred>Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000051213/AAT-Ned (1994-)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>porcelana de Delft</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000346792</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>Spanish</Language>
+            <Preferred>Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Descriptor</Term_Type>
+            <Part_of_Speech>Plural Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>
+            <Preferred>Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000049638/Miller, Como Reconocer las Antigüedades (1991)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>loza delft</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000346793</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>Spanish</Language>
+            <Preferred>Non Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Alternate Descriptor</Term_Type>
+            <Part_of_Speech>Singular Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+          <Term_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000048873/Dewey, Sistema de Clasificación Decimal Dewey e Índice Relativo (2000)</Source_ID>
+            </Source>
+            <Page>439</Page>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Source>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000048512/Tesauro de Arte &amp; Arquitectura (2000-)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>Delft ware</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000286074</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>British English</Language>
+            <Preferred>Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Descriptor</Term_Type>
+            <Part_of_Speech>Plural Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000031141/Oxford English Dictionary (1989)</Source_ID>
+            </Source>
+            <Page>            </Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+      <Non-Preferred_Term>
+        <Term_Text>Delftware</Term_Text>
+        <Display_Name>N/A</Display_Name>
+        <Historic_Flag>Current</Historic_Flag>
+        <Vernacular>Undetermined</Vernacular>
+        <Term_ID>1000304255</Term_ID>
+        <Term_Languages>
+          <Term_Language>
+            <Language>English</Language>
+            <Preferred>Non Preferred</Preferred>
+            <Qualifier>            </Qualifier>
+            <Term_Type>Used For Term</Term_Type>
+            <Part_of_Speech>Noun</Part_of_Speech>
+            <Lang_Stat>Undetermined</Lang_Stat>
+          </Term_Language>
+        </Term_Languages>
+        <Term_Contributors>
+          <Term_Contributor>
+            <Contributor_id>10000000/VP</Contributor_id>
+            <Preferred>Non Preferred</Preferred>
+          </Term_Contributor>
+        </Term_Contributors>
+        <Term_Sources>
+          <Term_Source>
+            <Source>
+              <Source_ID>2000045262/Grove Dictionary of Art online (1999-2002)</Source_ID>
+            </Source>
+            <Page>"Netherlands, the: Ceramics." Accessed 08/15/2002.</Page>
+            <Preferred>Preferred</Preferred>
+          </Term_Source>
+        </Term_Sources>
+      </Non-Preferred_Term>
+    </Terms>
+    <Associative_Relationships>
+      <Associative_Relationship>
+        <Relationship_Type>distinguished from</Relationship_Type>
+        <Related_Subject_ID>
+          <VP_Subject_ID>300010668</VP_Subject_ID>
+        </Related_Subject_ID>
+        <Historic_Flag>Current</Historic_Flag>
+      </Associative_Relationship>
+      <Associative_Relationship>
+        <Relationship_Type>distinguished from</Relationship_Type>
+        <Related_Subject_ID>
+          <VP_Subject_ID>300021170</VP_Subject_ID>
+        </Related_Subject_ID>
+        <Historic_Flag>Current</Historic_Flag>
+      </Associative_Relationship>
+      <Associative_Relationship>
+        <Relationship_Type>material used/producing is</Relationship_Type>
+        <Related_Subject_ID>
+          <VP_Subject_ID>300233436</VP_Subject_ID>
+        </Related_Subject_ID>
+        <Historic_Flag>Current</Historic_Flag>
+      </Associative_Relationship>
+    </Associative_Relationships>
+    <Subject_Contributors>
+      <Subject_Contributor>
+        <Contributor_id>10000000/VP</Contributor_id>
+      </Subject_Contributor>
+      <Subject_Contributor>
+        <Contributor_id>10000131/CDBP-DIBAM</Contributor_id>
+      </Subject_Contributor>
+      <Subject_Contributor>
+        <Contributor_id>10000205/Bureau AAT</Contributor_id>
+      </Subject_Contributor>
+    </Subject_Contributors>
+    <Subject_Sources>
+      <Subject_Source>
+        <Source>
+          <Source_ID>2000052372/Bureau AAT, RKD</Source_ID>
+        </Source>
+      </Subject_Source>
+    </Subject_Sources>
+  </Subject>
+</Vocabulary>
