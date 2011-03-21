@@ -1,0 +1,46 @@
+h2. Separate Controllers for each Entity Type
+
+Unlike a regular Blacklight install, where all data is coming from solr, BGC Entity views assemble data from a number of sources with distinct metadata models.  The best way to accommodate this variety is to define distinct controllers for each Entity type, thus allowing the show method to assemble the necessary data.
+
+This might also assist in achieving the desired behaviors of the Entity tabs on the homepage (filtering spelling suggests, etc.)
+
+h3. Details
+
+the 'index' method for these controllers will be the regular Blacklight CatalogController.index, with extra search params injected
+
+the 'show' method for these controllers will override/extend the Blacklight CatalogController.show
+
+the 'index' views will be rendered like any other blacklight search results, but the "show" links will link to Entity-specific controllers
+
+the 'show' views for each entity will use some Blacklight structures while also using the unique data loaded by their Entity-specific controller
+
+
+h3. Controllers to create:
+
+/auctions
+/auctions/[auction_id]/lots
+
+... Auction Lots need their own subclass of CatalogController to keep pagination and search history local to Auction lots rather than allowing it to muddy the search history of the main CatalogController
+
+/topics
+/places
+/people
+/artists
+/authors
+/faculty
+/courses
+
+h2. Abstracting Services/Sources and the data they return
+
+h3. Sources:
+
+AATVocabularyService < VocabularyService
+... AATSubject
+
+TGNVocabularyService < VocabularyService
+... TGNPlace
+
+ULANVocabularyService < VocabularyService
+... ULANArtist??
+
+VamMuseumImageService < MuseumImageService
