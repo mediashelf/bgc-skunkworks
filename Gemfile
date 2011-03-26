@@ -5,16 +5,16 @@ gem 'rails', '2.3.10'
 
 gem "authlogic", '2.1.2'
 gem 'marc', '0.3.0'
-gem 'rsolr', '0.12.1'
-gem 'rsolr-ext', '0.12.1'
+gem 'rsolr', '~>1.0.0'
+gem 'rsolr-ext', '~>1.0.0'
 
 #unicode is used by refworks export to force C form normalization, which
 #refworks wants.
 gem 'unicode'
-gem 'will_paginate', '2.3.11'
+gem 'will_paginate', '2.3.15'
 gem "sqlite3-ruby", :require => "sqlite3"
 
-gem 'om'
+gem 'om', '>=1.2.2'
 gem "httparty"
 
 group :test do  
