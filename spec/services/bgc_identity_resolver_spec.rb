@@ -1,4 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
+require "bgc_services/bgc_identity_resolver"
 
 describe BGCIdentityResolver do
   
@@ -19,7 +20,7 @@ describe BGCIdentityResolver do
       BGCIdentityResolver.resolve_id("10000003", [:aat,:bhl]).should == {"aat"=>"300140808", "bhl"=>nil}
     end
     it "should raise UnknownIdentifier if a bad identifier is provided" do
-      lambda { BGCIdentityResolver.resolve_id("blah1345", :aat) }.should raise_error(BGCIdentityResolver::UnknownIdentifierException, "Could not find authority info for blah1345")
+      lambda { BGCIdentityResolver.resolve_id("blah1345", :aat) }.should raise_error(BGCService::UnknownIdentifierException, "Could not find authority info for blah1345")
     end
   end
   

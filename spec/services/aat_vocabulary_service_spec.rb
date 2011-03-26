@@ -26,7 +26,7 @@ describe AATVocabularyService do
       EquivalentXml.equivalent?(aat_subject.ng_xml, @subject_xml)
     end
     it "should use BGCIdentityResolver if :bgc_id is provided" do
-      BGCIdentityResolver.instance.should_receive(:resolve_id).with("10000002", :aat).and_return("300140808")
+      BGCIdentityResolver.should_receive(:resolve_id).with("10000002", :aat).and_return("300140808")
       AATVocabularyService.instance.retrieve_subject(:bgc_id=>"10000002")
     end
   end

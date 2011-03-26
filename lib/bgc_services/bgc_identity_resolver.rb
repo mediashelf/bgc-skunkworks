@@ -1,7 +1,9 @@
 require "open-uri"
 require 'json'
+require "bgc_services/bgc_service"
+
 class BGCIdentityResolver
-    
+  
   # Uses BGC Authorities service to resolve mappings between a BGC Identifier and other systems' identifiers
   # @param [String] bgc_id BGC Identifier to resolve
   # @param [Symbol, Array] target the target(s) to resolve ids for.  Can be a single Symbol or an Array of Symbols
@@ -29,10 +31,8 @@ class BGCIdentityResolver
     begin
       JSON.parse( open("http://bgc.cloudant.com/authorities/#{bgc_id}").read )
     rescue OpenURI::HTTPError
-      raise UnknownIdentifierException, "Could not find authority info for #{bgc_id}"
+      raise BGCService::UnknownIdentifierException, "Could not find authority info for #{bgc_id}"
     end
   end
   
-  class UnknownIdentifierException < Exception
-  end
 end
