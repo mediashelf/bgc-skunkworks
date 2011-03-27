@@ -12,17 +12,15 @@ describe AuctionsController do
     auction_path("test:3").should == '/auctions/test:3'
   end
   it "should include routes for auction_lots" do
-    route_for(:controller=>'auction_lots', :action=>'index', :auction_id=>"test:3").should == '/auctions/auction:3/lots'
+    route_for(:controller=>'auction_lots', :action=>'index', :auction_id=>"auction:3").should == '/auctions/auction:3/lots'
     route_for(:controller=>'auction_lots', :action=>'show', :auction_id=>"auction:3", :id=>"lot:4").should == '/auctions/auction:3/lots/lot:4'
       
-    params_from(:get, '/auctions/auction:3/lots').should == {:controller=>'auction_lots', :action=>'index'}
-    params_from(:get, '/auctions/auction:3/lots/lot:4').should == {:controller=>'auction_lots', :auction_id=>"test:3", :id=>"lot:4", :action=>'show'}
-
-    auction_path("test:3").should == '/auctions/test:3'
+    params_from(:get, '/auctions/auction:3/lots').should == {:controller=>'auction_lots', :auction_id=>"auction:3", :action=>'index'}
+    params_from(:get, '/auctions/auction:3/lots/lot:4').should == {:controller=>'auction_lots', :auction_id=>"auction:3", :id=>"lot:4", :action=>'show'}
   end
   
   it "should be kind of ActionController" do
-    controller.should be_kind_of ActionController
+    controller.should be_kind_of ActionController::Base
   end
   
   describe "show" do

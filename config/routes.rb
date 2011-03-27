@@ -1,6 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
   Blacklight::Routes.build map
-
+  map.resources :auctions, :only=>:show  do |auction|
+    auction.resources :lots, :controller=>"auction_lots", :only=>[:show,:index]
+  end
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
