@@ -9,3 +9,10 @@ Online catalog:
 = link_to "Christie's", @auction.auction_house_sale_url
 
 %h3 Images from this sale
+
+= page_entries_info @lots, :entry_name => 'item'
+= will_paginate @lots
+
+- @lots.each do |lot| 
+  = render_lot(lot["value"]) 
+  

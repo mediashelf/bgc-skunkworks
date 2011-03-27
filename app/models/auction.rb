@@ -1,5 +1,6 @@
 require "getty_vocabularies"
 require "bgc_services/bgc_auction_sale_service"
+require "bgc_services/bgc_auction_lot_service"
 require "loggable"
 # require "blacklight/solr_helper"
 class Auction
@@ -57,6 +58,19 @@ class Auction
       @auction_house_sale_id = "sale ID unknown"
       @auction_house_sale_url = ""
     end
+  end
+  
+  # Query BGC Auction Lots service for lots associated with the corresponding sale
+  # @example 
+  #   BGCAuctionLotService.retrieve("21410").first
+  #   => {"id":"christies5271823","key":22768,"value":{"lotNumber":"1861","description":["A LONGQUAN CELADON TRIPOD CENSER",""],"lotURL":"http://www.christies.com/LotFinder/lot_details.aspx?intObjectID=5271823","thumbnail":"http://www.christies.com/lotfinderimages/d52718/d5271823s.jpg"}}
+  #   BGCAuctionLotService.retrieve("21410").first["value"]["lotURL"]
+  #   => "http://www.christies.com/LotFinder/lot_details.aspx?intObjectID=5271823"
+  def query_for_lots
+    if @auction_house_sale_id.nil?
+      load_sale_info
+    end
+    return BGCAuctionLotService.retrieve(@auction_house_sale_id)
   end
   
 end
