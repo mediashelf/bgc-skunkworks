@@ -1,8 +1,10 @@
 require "getty_vocabularies"
 require "bgc_services/bgc_auction_sale_service"
+require "loggable"
 # require "blacklight/solr_helper"
 class Auction
   
+  include Loggable
   include Blacklight::SolrHelper
   
   attr_accessor :catalog_id, :catalog_solr_doc, :catalog_solr_response, :sale_number, :auction_house_sale_id, :auction_house_sale_url, :sale_json
@@ -32,7 +34,11 @@ class Auction
   # @param [Hash] extra_blacklight_controller_params extra params to pass into get_solr_response_for_doc_id
   # @return [Array] [solr_response, solr_doc]
   def load_catalog_info(catalog_id=@catalog_id, extra_blacklight_controller_params={})
-    @catalog_solr_response, @catalog_solr_doc = get_solr_response_for_doc_id(catalog_id, extra_blacklight_controller_params)
+    begin
+      @catalog_solr_response, @catalog_solr_doc = get_solr_response_for_doc_id(catalog_id, extra_blacklight_controller_params)
+    rescue Blacklight::SolrHelper::InvalidSolrID => e
+      logger.warn "Warning:" + e.message + " when searching for #{catalog_id}"
+    end
     return [@catalog_solr_response, @catalog_solr_doc]
   end
   
@@ -40,10 +46,17 @@ class Auction
   # @param [String] catalog_id default to the value of @catalog_id
   # @return [Array] [sale_id, sale_url]
   def load_sale_info(catalog_id=@catalog_id)
-    @sale_json = BGCAuctionSaleService.retrieve(catalog_id)
-    @sale_number = @sale_json["saleNumber"]
-    @auction_house_sale_id = @sale_json["intSaleID"]
-    @auction_house_sale_url = @sale_json["saleURL"]
+    begin
+      @sale_json = BGCAuctionSaleService.retrieve(catalog_id)
+      @sale_number = @sale_json["saleNumber"]
+      @auction_house_sale_id = @sale_json["intSaleID"]
+      @auction_house_sale_url = @sale_json["saleURL"]
+    rescue BGCService::UnknownIdentifierException => e
+      logger.warn e.message
+      @sale_number = "sale number unknown"
+      @auction_house_sale_id = "sale ID unknown"
+      @auction_house_sale_url = ""
+    end
   end
   
 end

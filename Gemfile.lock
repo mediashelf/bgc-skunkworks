@@ -40,6 +40,7 @@ GEM
     json_pure (1.5.1)
     linecache (0.43)
     marc (0.3.0)
+    mediashelf-loggable (0.4.2)
     nokogiri (1.4.4)
     om (1.2.2)
       nokogiri (>= 1.4.2)
@@ -97,6 +98,7 @@ DEPENDENCIES
   hanna (>= 0.1.12)
   httparty
   marc (= 0.3.0)
+  mediashelf-loggable
   om (>= 1.2.2)
   rails (= 2.3.10)
   rcov (>= 0.9.7.1)

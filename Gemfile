@@ -16,6 +16,7 @@ gem "sqlite3-ruby", :require => "sqlite3"
 
 gem 'om', '>=1.2.2'
 gem "httparty"
+gem 'mediashelf-loggable'
 
 group :test do  
   gem "cucumber", "0.6.2"
