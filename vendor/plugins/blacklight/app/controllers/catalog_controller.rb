@@ -1,6 +1,7 @@
 class CatalogController < ApplicationController
 
   include Blacklight::SolrHelper
+  include BeforeRenderCallbacks
 
   before_filter :search_session, :history_session
   before_filter :delete_or_assign_search_session_params,  :only=>:index
@@ -38,6 +39,8 @@ class CatalogController < ApplicationController
     @response, @document = get_solr_response_for_doc_id    
     respond_to do |format|
       format.html {setup_next_and_previous_documents}
+      
+      run_before_render_filters
       
       # Add all dynamically added (such as by document extensions)
       # export formats.
