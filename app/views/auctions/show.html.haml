@@ -1,4 +1,6 @@
 - sidebar_items << image_tag("http://bgc.cloudant.com/thumbs/#{params['id']}/medium.jpg")
+- sidebar2_items << capture do 
+  = render :partial => 'catalog/search_form' 
 
 %h3 Contents
 
@@ -8,11 +10,6 @@
 Online catalog: 
 = link_to "Christie's", @auction.auction_house_sale_url
 
-%h3 Images from this sale
-
-= page_entries_info @lots, :entry_name => 'item'
-= will_paginate @lots
-
-- @lots.each do |lot| 
-  = render_lot(lot["value"]) 
+- sidebar2_items << capture do 
+  = render :partial => 'lot_images'
   

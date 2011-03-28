@@ -37,6 +37,10 @@ class AATSubject
     t.id_(:proxy=>[:subject, :id])
   end
   
+  def term_id
+    term_values(:subject, :id).first
+  end
+  
   def preferred_term
     find_by_terms(:subject, :terms, :preferred_term, :text).text
   end

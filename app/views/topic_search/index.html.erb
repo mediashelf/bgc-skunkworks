@@ -15,6 +15,7 @@
 
   <%= render :partial => 'entity_info' %>
   
+  <%#- Skipping constraints because render_constraints helper relies on catalog_index_path, which raises an error %>
 	<%#= render 'catalog/constraints', :localized_params=>params %>
   
   <div class="pageEntriesInfo">

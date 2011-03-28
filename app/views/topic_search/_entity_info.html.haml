@@ -1,5 +1,8 @@
 #entity_info
-  %h4 
-    Getty Art and Architecture Thesaurus:
-    = @aat_subject.preferred_term
-  = @aat_subject.english_description
+  .entity_description.aat
+    %h4
+      %a{:href=>"http://www.getty.edu/vow/AATFullDisplay?find=#{@aat_subject.term_id}&logic=AND&note=&subjectid=#{@aat_subject.term_id}"}
+        Getty Art and Architecture Thesaurus:
+        = @aat_subject.preferred_term
+    .description
+      = @aat_subject.english_description

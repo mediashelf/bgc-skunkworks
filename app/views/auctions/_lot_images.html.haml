@@ -1,0 +1,7 @@
+%h3 Images from this sale
+
+= page_entries_info @lots, :entry_name => 'item'
+= will_paginate @lots
+
+- @lots.each do |lot| 
+  = render_lot(lot["value"])
