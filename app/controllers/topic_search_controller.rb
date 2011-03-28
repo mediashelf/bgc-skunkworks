@@ -1,7 +1,7 @@
 require "getty_vocabularies"
 class TopicSearchController < CatalogController
-  
-  prepend_before_filter :apply_entity_filter, :only=>:index
+  # Commented out apply_entity_filter until new marc records arrive so we can see sample results 
+  # prepend_before_filter :apply_entity_filter, :only=>:index
   before_filter :load_aat_subject, :only=>:index
   
   def apply_entity_filter
