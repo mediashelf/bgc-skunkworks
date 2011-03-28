@@ -4,4 +4,9 @@ module ApplicationHelper
   def application_name
     'BGC Skunkworks'
   end
+  
+  # collection of items to be rendered in the @sidebar2
+  def sidebar2_items
+    @sidebar2_items ||= []
+  end
 end

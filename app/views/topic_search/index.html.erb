@@ -7,9 +7,11 @@
 
         <% extra_head_content << render_opensearch_response_metadata %>
 
-	<%= render :partial => 'catalog/search_form' %>
-	
-	<%= render :partial => 'catalog/did_you_mean' %>
+  <% sidebar2_items << capture do %>
+    <%= render :partial => 'catalog/search_form' %>
+  	<%= render :partial => 'catalog/did_you_mean' %>
+  <% end %>
+
 
   <%= render :partial => 'entity_info' %>
   
@@ -28,6 +30,7 @@
 	<%= render_document_list_partial %>
 
 	<% sidebar_items << capture do %>
+	  <%= render :partial=>'topic_search/vocab_nav' %>
 	  <%= render :partial=>'catalog/facets' %>
 	<% end %>
 
