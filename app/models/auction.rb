@@ -70,7 +70,11 @@ class Auction
     if @auction_house_sale_id.nil?
       load_sale_info
     end
-    return BGCAuctionLotService.retrieve(@auction_house_sale_id)
+    if @auction_house_sale_id == "sale ID unknown"
+      return []
+    else
+      return BGCAuctionLotService.retrieve(@auction_house_sale_id)
+    end 
   end
   
 end

@@ -31,6 +31,11 @@ describe AuctionsController do
     it "should load auction object" do
       assigns["auction"].should be_instance_of Auction
     end
+    
+    it "should load document from solr like a blacklight catalog show action" do
+      assigns["document"].should == assigns["auction"].catalog_solr_doc
+      assigns["response"].should == assigns["auction"].catalog_solr_response
+    end
 
     it "should load lots array (images from this sale)" do
       pending "Possibly this search should be performed against an AuctionLotsController in an iframe?"
