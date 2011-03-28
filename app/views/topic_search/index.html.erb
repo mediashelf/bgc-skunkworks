@@ -1,0 +1,40 @@
+<% unless has_search_parameters? %>
+	<%# if there are no input/search related params, display the "home" partial -%>
+	<%= render 'home' %>
+<% else %>
+
+	<% @page_title = application_name + " Search Results" %>
+
+        <% extra_head_content << render_opensearch_response_metadata %>
+
+	<%= render :partial => 'catalog/search_form' %>
+	
+	<%= render :partial => 'catalog/did_you_mean' %>
+
+  <%= render :partial => 'entity_info' %>
+  
+	<%#= render 'catalog/constraints', :localized_params=>params %>
+  
+  <div class="pageEntriesInfo">
+    <%= page_entries_info @response.docs, :entry_name=>'item' %>
+    <%=link_to "Start&nbsp;over&thinsp;", catalog_index_path, :id=>"startOverLink" %>
+  </div>
+  
+	<%= render 'catalog/sort_and_per_page' %>
+  
+  <%= render 'catalog/results_pagination' %>
+  
+
+	<%= render_document_list_partial %>
+
+	<% sidebar_items << capture do %>
+	  <%= render :partial=>'catalog/facets' %>
+	<% end %>
+
+  <%= render 'catalog/results_pagination' %>
+
+
+	<%= render :partial=>'catalog/solr_request' %>
+
+<% end %>
+

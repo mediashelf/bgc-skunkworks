@@ -4,6 +4,8 @@ ActionController::Routing::Routes.draw do |map|
     auction.resources :lots, :controller=>"auction_lots", :only=>[:show,:index]
   end
   
+  map.topic_search 'topics/:topic_id', :controller => 'topic_search', :action => 'index'
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
