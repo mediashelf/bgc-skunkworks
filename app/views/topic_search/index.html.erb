@@ -1,8 +1,3 @@
-<% unless has_search_parameters? %>
-	<%# if there are no input/search related params, display the "home" partial -%>
-	<%= render 'home' %>
-<% else %>
-
 	<% @page_title = application_name + " Search Results" %>
 
         <% extra_head_content << render_opensearch_response_metadata %>
@@ -39,6 +34,4 @@
 
 
 	<%= render :partial=>'catalog/solr_request' %>
-
-<% end %>
 
