@@ -2,4 +2,8 @@ h1. BGC Blacklight
 
 h2. Loading MARC Data
 
+Run the solr:marc:index rake task
+
+<pre>
 rake solr:marc:index MARC_FILE=data/MARC/auction_catalogs/auctions.mrc 
+</pre>
