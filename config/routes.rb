@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   Blacklight::Routes.build map
-  map.resources :auctions, :only=>:show  do |auction|
+  map.resources :auctions, :controller=>"catalog"  do |auction|
     auction.resources :lots, :controller=>"auction_lots", :only=>[:show,:index]
   end
   
