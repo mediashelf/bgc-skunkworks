@@ -3,5 +3,7 @@
   = render :partial => 'catalog/search_form'
   = render :partial => 'auctions/lot_images'
   
+/ use default catalog show partial -- displays all available metadata fields based on blacklight_config.rb
+
 =render :partial=>"catalog/_#{action_name}_partials/default", :locals=>{:document=>@document} #.merge(@locals)
     
